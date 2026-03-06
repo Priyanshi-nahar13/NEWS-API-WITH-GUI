@@ -7,8 +7,8 @@ import os
 
 # ================= CONFIG =================
 
-NEWS_API_KEY = "fe3d519d26a44a45b291825e050a9e75"
-GEMINI_API_KEY = "AIzaSyCbeFzhrw9c-Yo0bKrqhbJ919VIcF6DsfU"
+NEWS_API_KEY = ""
+GEMINI_API_KEY = ""
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -99,3 +99,4 @@ status_label = tk.Label(root, text="Ready", bg="#1e1e1e", fg="lightgreen")
 status_label.pack(pady=5)
 
 root.mainloop()
+
