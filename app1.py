@@ -7,8 +7,8 @@ import webbrowser
 from textblob import TextBlob
 
 # ================= API KEYS =================
-NEWS_API_KEY = "fe3d519d26a44a45b291825e050a9e75"
-GEMINI_API_KEY = "AIzaSyDF7LX6Bocs1Miw6A7GieEc6OgzVnuHIlw"
+NEWS_API_KEY = ""
+GEMINI_API_KEY = ""
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
