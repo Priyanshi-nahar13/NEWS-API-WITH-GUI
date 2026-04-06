@@ -18,7 +18,7 @@ A simple Python-based desktop application that fetches the latest news using New
 
 ## 🔑 API Setup
 
-Replace the API keys in `app1.py`, "project17 [NEWS-API-GUI]":
+Replace the API keys in `app1.py`, "app.py":
 
 ```python
 NEWS_API_KEY = "YOUR_NEWS_API_KEY"
@@ -28,7 +28,7 @@ GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 ## ▶️ Run the Project
 
 ```bash
-python project17 [NEWS-API-GUI].py
+python app.py
 python app1.py
 ```
 
